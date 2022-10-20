@@ -7,7 +7,7 @@ answer = answer.upper()
 answer_guessed = []
 
 for current_answer_character in answer:
-    if re.search("^[A-Z}$", current_answer_character):
+    if re.search("^[A-Z]$", current_answer_character):
         answer_guessed.append(False)
     else: 
         answer_guessed.append(True)
