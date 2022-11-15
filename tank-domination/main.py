@@ -58,9 +58,9 @@ while game_running_flag:
     position_delta = 0
 
     if key_pressed[pygame.K_LEFT]: 
-        position_delta = -5
+        position_delta = -10
     elif key_pressed[pygame.K_RIGHT]:
-        position_delta = 5
+        position_delta = 10
     
     # check for boundaries
 
